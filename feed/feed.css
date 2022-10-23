@@ -1,0 +1,54 @@
+.container {
+    display: block;
+    margin:0 auto;
+    border: solid 2px blue;
+    justify-content: center;
+    child-align: middle;
+}
+
+.card {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    border: solid 2px #FF0000;
+    height: 140px;
+    margin: 10px;
+    transition: all 0.1s linear;
+}
+.card:hover{
+    background-color: rgba(255,0,0,0.05);
+    cursor: pointer ;
+    transform: scale(1.005);
+    box-shadow: 1px 1px 1px 1px #8c8c8c;
+}
+.pic {
+    object-fit: fill;
+    margin: 12px;
+    border-radius: 10px;
+    aspect-ratio: 4/3;
+}
+.info {
+    display: block;
+    width: 100%;
+    margin-left: 20px;
+}
+.title{
+    text-overflow: ellipsis;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+
+.time{
+    text-overflow: ellipsis;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    color:gray;
+    font-size: medium;
+}
+.view-count{
+    text-overflow: ellipsis;
+    color:gray;
+    font-size: smaller;
+}
+
